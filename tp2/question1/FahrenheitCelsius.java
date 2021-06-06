@@ -19,7 +19,7 @@ public class FahrenheitCelsius {
     public static void main(String[] args) {
         // pour tous les paramètres de la ligne de commande
          for(int i = 0; i < args.length; i++) {
-         int fahrenheit =  Integer.valueOf(args[i]);
+         int fahrenheit =  Integer.parseInt(args[i]);
         float celsius = fahrenheitEnCelsius(fahrenheit);
         System.out.println(fahrenheit + "\u00B0F -> " + celsius + "\u00B0C"); // ligne,                                                                                // imposés
                    
