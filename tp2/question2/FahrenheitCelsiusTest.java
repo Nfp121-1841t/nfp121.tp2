@@ -69,4 +69,28 @@ public class FahrenheitCelsiusTest extends junit.framework.TestCase
      * Vous pouvez ébaucher le corps grâce au menu contextuel "Enregistrer une méthode de test".
      */
 
+  
+
+    
+
+    public void test()
+    {
+        assertEquals(26.6, question2.FahrenheitCelsius.fahrenheitEnCelsius(80), 0.1);
+    }
+
+   
+
+    public void test2()
+    {
+        assertEquals(-17.7, question2.FahrenheitCelsius.fahrenheitEnCelsius(0), 0.1);
+        assertEquals(37.7, question2.FahrenheitCelsius.fahrenheitEnCelsius(100), 0.1);
+        assertEquals(1096.6, question2.FahrenheitCelsius.fahrenheitEnCelsius(2006), 0.1);
+    }
 }
+
+
+
+
+
+
+
